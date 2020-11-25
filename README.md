@@ -1,5 +1,3 @@
-![123](http://l2ed.gotdns.ch:99/Uploads/favicon.ico)
-
 # L2 Editor GUI
 ## Version: 2.0
 @This editor is designed for personal use.
@@ -99,14 +97,17 @@ Development in process...
     - [ ] Add new icon
     - [x] Edit properties
     - [x] Remove icon
+    
 - [ ] **Code editor feature**
   - [x] Store code on server by user.
   - [x] Code highlight.
   - [ ] Error checking.
+  
 - [x] **File editor feature**
   - [x] Edit .ini / .int files as text.
   - [x] Edit .dat as text.
   - [ ] Edit .dat as table.
+  
 - [ ] **Game package editor feature**
   - [x] Encode / Decode packages.
   - [ ] Load .utx package.
@@ -114,6 +115,7 @@ Development in process...
   - [ ] Edit object properties.
   - [ ] Add new objects.
   - [ ] Remove objects.
+  
 - [x] **Source Code Compiler feature**
   - [x] Decompile .u file to sources.
   - [x] Compile .u file to sources.
@@ -123,4 +125,31 @@ Development in process...
     - [x] Light encoding.
     - [ ] Strong encoding.
       - [ ] With .dll injection.
-      - [ ] Without .dll injection.
+      - [ ] Without .dll injection. 
+      
+- [ ] **Cloud storage feature**
+  - [x] Open/Save user files in their own folder.
+  - [ ] Grant access to list of files into user folder via Editor interface.
+  - [ ] Set disk space limits for user by license type.
+  - [x] Check all uploaded files by Antivirus APP.
+  - [x] Ban user when in their files virus are found.
+    - [x] Permanent ban if uploaded executable file with a virus.
+    
+- [ ] **User guides and Help and F.A.Q.**
+  - [ ] Add F.A.Q. in the Editor.
+    - [ ] Categorized like a L2 ingame help wnd.
+  - [ ] Add User guide texts and videos.
+  - [ ] Add Online Help chat (btw can use Telegram / Skype)
+  
+- [ ] **Price list and license features**
+  - [ ] Add price list.
+  - [x] User license.
+    - [x] Show status.
+    - [ ] Enter license manually.
+  
+## Change log here ------------------------------------------------------------
+
+### **[2020/11/25]** 
+  - Added GutHub repo to share information to users.
+  - Added new part of server for **Game package editor feature**
+  - Added basic structure to allow users to open .utx / .u files remotely.
