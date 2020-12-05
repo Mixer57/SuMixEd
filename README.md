@@ -71,7 +71,7 @@ Development in process...
 | 245 | x | x | x | Prelude of War         | 3 | x |   | x | x | x | x |   |   | 
 | 272 | x | x | x | Homunculus             |   | x |   | x | x | x | x |   |   | 
 | 286 | x | x | x | Homunculus             | 2 | x |   | x | x | x | x |   |   | 
-| 306 | x | x | x | Sylph                  |   |   |   |   |   |   |   |   |   | 
+| 306 | x | x | x | Sylph                  |   | ! |   |   |   |   |   |   |   | 
 
 
 ## Features
@@ -129,7 +129,8 @@ Development in process...
   - [ ] Set disk space limits for user by license type.
   - [x] Check all uploaded files by Antivirus APP.
   - [x] Ban user when in their files virus are found.
-    - [x] Permanent ban if uploaded executable file with a virus.    
+    - [x] Permanent ban if uploaded executable file with a virus.  
+  - [x] Strong encryption for user files.
 - [ ] **User guides and Help and F.A.Q.**
   - [ ] Add F.A.Q. in the Editor.
     - [ ] Categorized like a L2 ingame help wnd.
@@ -143,6 +144,14 @@ Development in process...
   
 ## Change log here ------------------------------------------------------------
 
+### **[2020/12/05]** 
+  - The method for drawing windows has been updated. 
+  - Added user storage.
+  - Added the ability to view user storage and delete files.
+  - Improved data compression mechanism for cloud processing.
+  - Added intuitive data encryption for data exchange with the user.
+  - Added basic support for 306 protocol.
+  
 ### **[2020/11/25]** 
   - Added GutHub repo to share information to users.
   - Added new part of server for **Game package editor feature**
