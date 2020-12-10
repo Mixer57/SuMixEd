@@ -144,6 +144,9 @@ Development in process...
   
 ## Change log here ------------------------------------------------------------
 
+### **[2020/12/10]** 
+  - Realized correct draw window and window controls.
+  
 ### **[2020/12/05]** 
   - The method for drawing windows has been updated. 
   - Added user storage.
