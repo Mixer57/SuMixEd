@@ -1,150 +1,95 @@
-# L2 Editor GUI
+# Lineage II : Second Update by MIXer57 EDitor aka SuMixEd
 ## Version: 2.0
 @This editor is designed for personal use.
 
-Development in process...
+Development in process... again!
 
 # Supported versions
-> *C* - **Classic** client
+> MOD - is game modification such as:
+> 
+> - **C** - **Classic** client
+> - **G** - **Goddess of Destruction** client
+> - **E** - **Essence** client
 
-> *G* - **Goddess of Destruction** client
-
-> *E* - **Essence** client
-
-| prt | G | C | E | Title | Upd | XDAT | DAT | INI | INT | HTM | BMP | UTX | U | 
-|-----|---|---|---|------------------------------|---|---|---|---|---|---|---|---|---| 
-| 737 |   |   |   | Interlude              |   |   | x | x | x | x | x |   | x | 
-| 740 |   |   |   | Interlude              | 1 |   | x | x | x | x | x |   | x | 
-| 744 |   |   |   | Interlude              | 2 |   | x | x | x | x | x |   | x | 
-| 746 |   |   |   | Interlude              | 3 |   | x | x | x | x | x |   | x | 
-| 828 |   |   |   | The Kamael             |   |   | x | x | x | x | x |   | x | 
-| 831 |   |   |   | Hellbound              |   |   | x | x | x | x | x |   | x | 
-| 851 |   |   |   | Gracia Part            | 1 |   | x | x | x | x | x |   | x | 
-| 12  |   |   |   | Gracia Part            | 2 |   | x | x | x | x | x |   | x | 
-| 17  |   |   |   | Gracia Part 2          | 1 |   | x | x | x | x | x |   | x | 
-| 83  |   |   |   | Gracia Final           |   |   | x | x | x | x | x |   | x | 
-| 87  |   |   |   | Gracia Final           | 1 |   | x | x | x | x | x |   | x | 
-| 148 |   |   |   | Gracia Epilogue        |   |   | x | x | x | x | x |   | x | 
-| 152 |   |   |   | Gracia Epilogue        | 1 |   | x | x | x | x | x |   | x | 
-| 216 |   |   |   | Freya                  |   |   | x | x | x | x | x |   | x | 
-| 267 |   |   |   | High Five              |   |   | x | x | x | x | x |   | x | 
-| 268 |   |   |   | High Five              | 1 |   | x | x | x | x | x |   | x | 
-| 271 |   |   |   | High Five              | 2 |   | x | x | x | x | x |   | x | 
-| 273 |   |   |   | High Five              | 3 |   | x | x | x | x | x |   | x | 
-| 415 |   |   |   | Goddess of Destruction |   |   | x | x | x | x | x |   | x | 
-| 404 |   |   |   | Awakening              |   |   | x | x | x | x | x |   | x | 
-| 410 |   |   |   | Harmony                |   |   | x | x | x | x | x |   | x | 
-| 411 |   |   |   | Harmony                | 1 |   | x | x | x | x | x |   | x | 
-| 448 |   |   |   | Tauti                  |   |   | x | x | x | x | x |   | x | 
-| 449 |   |   |   | Tauti                  | 1 |   | x | x | x | x | x |   | x | 
-| 479 |   |   |   | Glory Days             |   |   | x | x | x | x | x |   | x | 
-| 480 |   |   |   | Glory Days             | 1 |   | x | x | x | x | x |   | x | 
-| 488 |   |   |   | Glory Days             | 2 |   | x | x | x | x | x |   | x | 
-| 531 |   |   |   | Lindvior               |   |   | x | x | x | x | x |   | x | 
-| 532 |   |   |   | Lindvior               | 1 |   | x | x | x | x | x |   | x | 
-| 533 |   |   |   | Lindvior               | 2 |   | x | x | x | x | x |   | x | 
-| 557 |   |   |   | Lindvior               | 3 |   | x | x | x | x | x |   | x | 
-| 558 |   |   |   | Lindvior               | 4 |   | x | x | x | x | x |   | x | 
-| 575 |   |   |   | Valiance               |   |   | x | x | x | x | x |   | x | 
-| 578 |   |   |   | Valiance               | 1 |   | x | x | x | x | x |   | x | 
-| 580 |   |   |   | Valiance               | 2 |   | x | x | x | x | x |   | x | 
-| 581 |   |   |   | Valiance               | 3 |   | x | x | x | x | x |   | x | 
-| 583 |   |   |   | Valiance               | 4 |   | x | x | x | x | x |   | x | 
-| 603 |   |   |   | Ertheia                |   |   | x | x | x | x | x |   | x | 
-| 606 |   |   |   | Ertheia                | 1 |   | x | x | x | x | x |   | x | 
-| 607 |   |   |   | Ertheia                | 2 |   | x | x | x | x | x |   | x | 
-| 610 |   |   |   | Ertheia                | 3 |   | x | x | x | x | x |   | x | 
-| 19  |   |   |   | Classic 1.0            |   |   | x | x | x | x | x |   | x | 
-| 24  |   |   |   | Infinite Odyssey       |   |   | x | x | x | x | x |   | x | 
-| 28  |   |   |   | Underground            |   |   | x | x | x | x | x |   | x | 
-| 55  |   |   |   | Helios                 |   |   | x | x | x | x | x |   | x | 
-| 57  |   |   |   | Helios                 | 1 |   | x | x | x | x | x |   | x | 
-| 64  |   |   |   | Helios                 | 2 |   | x | x | x | x | x |   | x | 
-| 109 | x |   |   | Grand Crusade          |   | x | x | x | x | x | x |   | x | 
-| 110 | x | x |   | Grand Crusade          | 1 | x | x | x | x | x | x |   | x | 
-| 140 | x | x |   | Salvation              |   | x |   | x | x | x | x |   | x | 
-| 152 | x | x |   | Salvation              | 1 | x |   | x | x | x | x |   | x | 
-| 166 | x | x |   | Fafurion               |   | x |   | x | x | x | x |   | x | 
-| 196 | x | x | x | Fafurion               | 1 | x |   | x | x | x | x |   | x | 
-| 228 | x | x | x | Prelude of War         |   | x |   | x | x | x | x |   |   | 
-| 235 | x | x | x | Prelude of War         | 2 | x |   | x | x | x | x |   |   | 
-| 245 | x | x | x | Prelude of War         | 3 | x |   | x | x | x | x |   |   | 
-| 272 | x | x | x | Homunculus             |   | x |   | x | x | x | x |   |   | 
-| 286 | x | x | x | Homunculus             | 2 | x |   | x | x | x | x |   |   | 
-| 306 | x | x | x | Sylph                  |   | ! |   |   |   |   |   |   |   | 
+| ver | Title                  | Upd | mod | XDAT | DAT | INI | INT | HTM | BMP | UTX | U | 
+|:---:|------------------------|:---:|:---:|:----:|:---:|:---:|:---:|:---:|:---:|:---:|:-:| 
+| 737 | Interlude              |     |     |      |     |     |     |     |     |     |   | 
+| 740 | Interlude              |  1  |     |      |     |     |     |     |     |     |   | 
+| 744 | Interlude              |  2  |     |      |     |     |     |     |     |     |   | 
+| 746 | Interlude              |  3  |     |      |     |     |     |     |     |     |   | 
+| 828 | The Kamael             |     |     |      |     |     |     |     |     |     |   | 
+| 831 | Hellbound              |     |     |      |     |     |     |     |     |     |   | 
+| 851 | Gracia Part            |  1  |     |      |     |     |     |     |     |     |   | 
+| 12  | Gracia Part            |  2  |     |      |     |     |     |     |     |     |   | 
+| 17  | Gracia Part 2          |  1  |     |      |     |     |     |     |     |     |   | 
+| 83  | Gracia Final           |     |     |      |     |     |     |     |     |     |   | 
+| 87  | Gracia Final           |  1  |     |      |     |     |     |     |     |     |   | 
+| 148 | Gracia Epilogue        |     |     |      |     |     |     |     |     |     |   | 
+| 152 | Gracia Epilogue        |  1  |     |      |     |     |     |     |     |     |   | 
+| 216 | Freya                  |     |     |      |     |     |     |     |     |     |   | 
+| 267 | High Five              |     |     |      |     |     |     |     |     |     |   | 
+| 268 | High Five              |  1  |     |      |     |     |     |     |     |     |   | 
+| 271 | High Five              |  2  |     |      |     |     |     |     |     |     |   | 
+| 273 | High Five              |  3  |     |      |     |     |     |     |     |     |   | 
+| 415 | Goddess of Destruction |     |     |      |     |     |     |     |     |     |   | 
+| 404 | Awakening              |     |     |      |     |     |     |     |     |     |   | 
+| 410 | Harmony                |     |     |      |     |     |     |     |     |     |   | 
+| 411 | Harmony                |  1  |     |      |     |     |     |     |     |     |   | 
+| 448 | Tauti                  |     |     |      |     |     |     |     |     |     |   | 
+| 449 | Tauti                  |  1  |     |      |     |     |     |     |     |     |   | 
+| 479 | Glory Days             |     |     |      |     |     |     |     |     |     |   | 
+| 480 | Glory Days             |  1  |     |      |     |     |     |     |     |     |   | 
+| 488 | Glory Days             |  2  |     |      |     |     |     |     |     |     |   | 
+| 531 | Lindvior               |     |     |      |     |     |     |     |     |     |   | 
+| 532 | Lindvior               |  1  |     |      |     |     |     |     |     |     |   | 
+| 533 | Lindvior               |  2  |     |      |     |     |     |     |     |     |   | 
+| 557 | Lindvior               |  3  |     |      |     |     |     |     |     |     |   | 
+| 558 | Lindvior               |  4  |     |      |     |     |     |     |     |     |   | 
+| 575 | Valiance               |     |     |      |     |     |     |     |     |     |   | 
+| 578 | Valiance               |  1  |     |      |     |     |     |     |     |     |   | 
+| 580 | Valiance               |  2  |     |      |     |     |     |     |     |     |   | 
+| 581 | Valiance               |  3  |     |      |     |     |     |     |     |     |   | 
+| 583 | Valiance               |  4  |     |      |     |     |     |     |     |     |   | 
+| 603 | Ertheia                |     |     |      |     |     |     |     |     |     |   | 
+| 606 | Ertheia                |  1  |     |      |     |     |     |     |     |     |   | 
+| 607 | Ertheia                |  2  |     |      |     |     |     |     |     |     |   | 
+| 610 | Ertheia                |  3  |     |      |     |     |     |     |     |     |   | 
+| 19  | Classic 1.0            |     |     |      |     |     |     |     |     |     |   | 
+| 24  | Infinite Odyssey       |     |     |      |     |     |     |     |     |     |   | 
+| 28  | Underground            |     |     |      |     |     |     |     |     |     |   | 
+| 55  | Helios                 |     |     |      |     |     |     |     |     |     |   | 
+| 57  | Helios                 |  1  |     |      |     |     |     |     |     |     |   | 
+| 64  | Helios                 |  2  |     |      |     |     |     |     |     |     |   | 
+| 109 | Grand Crusade          |     | G   |      |     |     |     |     |     |     |   | 
+| 110 | Grand Crusade          |  1  | GC  |      |     |     |     |     |     |     |   | 
+| 140 | Salvation              |     | GC  |      |     |     |     |     |     |     |   | 
+| 152 | Salvation              |  1  | GC  |      |     |     |     |     |     |     |   | 
+| 166 | Fafurion               |     | GC  |      |     |     |     |     |     |     |   | 
+| 196 | Fafurion               |  1  | GCE |      |     |     |     |     |     |     |   | 
+| 228 | Prelude of War         |     | GCE |      |     |     |     |     |     |     |   | 
+| 235 | Prelude of War         |  2  | GCE |      |     |     |     |     |     |     |   | 
+| 245 | Prelude of War         |  3  | GCE |      |     |     |     |     |     |     |   | 
+| 272 | Homunculus             |     | GCE |      |     |     |     |     |     |     |   | 
+| 286 | Homunculus             |  2  | GCE |      |     |     |     |     |     |     |   | 
+| 306 | Sylph                  |     | GCE |      |     |     |     |     |     |     |   | 
+| 338 | Master Class           |     | GCE |      |     |     |     |     |     |     |   | 
 
 
 ## Features
+> This block was cleared for renew... coming soon
 
-- [x] **Interface editor feature**
-  - [x] Tabbed interface (Opens many files at same time)
-  - [x] Load / Save Interface.xdat
-  - [ ] Draw widows as in client.
-  - [ ] **Control editor**
-    - [x] Add new control
-    - [x] Edit control properties
-    - [x] Remove control
-    - [ ] Move control by keyboard arrows
-    - [ ] Move control by mouse
-  - [x] **Shortcut editor**
-    - [ ] Add new Shortcut
-    - [x] Edit properties
-    - [ ] Remove Shortcut
-  - [x] **Window position editor**
-    - [ ] Add new win pos
-    - [x] Edit properties
-    - [ ] Remove win pos
-  - [x] **Ingame icons editor**
-    - [ ] Add new icon
-    - [x] Edit properties
-    - [ ] Remove icon    
-- [ ] **Code editor feature**
-  - [x] Store code on server by user.
-  - [x] Code highlight.
-  - [ ] Error checking.  
-- [x] **File editor feature**
-  - [x] Edit .ini / .int files as text.
-  - [x] Edit .dat as text.
-  - [ ] Edit .dat as table.  
-- [ ] **Game package editor feature**
-  - [x] Encode / Decode packages.
-  - [ ] Load .utx package.
-  - [ ] Save .utx package.
-  - [ ] Edit object properties.
-  - [ ] Add new objects.
-  - [ ] Remove objects.  
-- [x] **Source Code Compiler feature**
-  - [x] Decompile .u file to sources.
-  - [x] Compile .u file to sources.
-  - [ ] Check source file for errors.
-  - [x] Strip source from .u file
-  - [x] Obfuscate .u file.
-    - [x] Light encoding.
-    - [ ] Strong encoding.
-      - [ ] With .dll injection.
-      - [ ] Without .dll injection.       
-- [ ] **Cloud storage feature**
-  - [x] Open/Save user files in their own folder.
-  - [ ] Grant access to list of files into user folder via Editor interface.
-  - [ ] Set disk space limits for user by license type.
-  - [x] Check all uploaded files by Antivirus APP.
-  - [x] Ban user when in their files virus are found.
-    - [x] Permanent ban if uploaded executable file with a virus.  
-  - [x] Strong encryption for user files.
-- [ ] **User guides and Help and F.A.Q.**
-  - [ ] Add F.A.Q. in the Editor.
-    - [ ] Categorized like a L2 ingame help wnd.
-  - [ ] Add User guide texts and videos.
-  - [ ] Add Online Help chat (btw can use Telegram / Skype)  
-- [ ] **Price list and license features**
-  - [ ] Add price list.
-  - [x] User license.
-    - [x] Show status.
-    - [ ] Enter license manually.
-  
-## Change log here ------------------------------------------------------------
+## Tasks and Plans 
+ - [ ] Review all obsolete code and remake it!
+ - [ ] Start service to allow get preview version of editor
+ - [ ] Make it cloud-based.
 
-### **[2020/12/10]** 
+## Change log
+### **[2023/07/01]**
+  - After long time this project now on board!
+  - All source code will be reviewed, fixed and tested.
+  - It still private!
+
+### **[2020/12/10]** - Old version named Xdat-Editor v1.7.5.0
   - Realized correct draw window and window controls.
   
 ### **[2020/12/05]** 
